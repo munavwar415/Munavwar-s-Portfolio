@@ -55,13 +55,35 @@ header nav ul li a {
   color: azure;
 }
 
-.about-me {
+/*.about-me {
+  padding: 7px 15px;
+  margin: auto 0 auto;
+  width: 35%;
+}*/
+
+/*.img img {
+  width: 20%;
+  border-radius: 250px;
+}*/
+
+.name p {
   padding: 7px 15px;
   margin: auto 0 auto;
   width: 35%;
 }
 
-.img img {
+.name img {
   width: 20%;
   border-radius: 250px;
+  border: 20px white;
+}
+
+.my-info h1,
+.my-info h2 {
+  color: azure;
+  padding-left: 210px;
+  line-height: 1.5;
+}
+.my-info h1 {
+  font-size: 35px;
 }

@@ -36,40 +36,30 @@ header nav ul li a {
   color: azure;
 }
 
-#about-me-sec {
+/*#home {
   padding: 40px;
   background-image: url(../images/IMG_3740.jpeg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background-position: 80;
-  height: 600px;
-}
+  background-position: 80%;
+  height: 350px;
+}*/
 
 .name {
+  padding: 40px;
+  background-image: url(../images/IMG_3740.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+  height: 600px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   color: azure;
-}
-
-/*.about-me {
-  padding: 7px 15px;
-  margin: auto 0 auto;
-  width: 35%;
-}*/
-
-/*.img img {
-  width: 20%;
-  border-radius: 250px;
-}*/
-
-.name p {
-  padding: 7px 15px;
-  margin: auto 0 auto;
-  width: 35%;
 }
 
 .name img {
@@ -81,9 +71,66 @@ header nav ul li a {
 .my-info h1,
 .my-info h2 {
   color: azure;
-  padding-left: 210px;
+
   line-height: 1.5;
 }
 .my-info h1 {
   font-size: 35px;
+}
+.my-info h2 {
+  padding-left: 18px;
+}
+
+.about-me-text {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: space-around;
+}
+
+.about-me-text p {
+  padding: 7px 15px;
+  margin: auto 0 auto;
+  width: 35%;
+  align-self: flex-end;
+}
+
+.about-me-text h2 {
+  align-self: center;
+}
+
+.my-work-text {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: space-around;
+}
+
+.my-work-text p {
+  padding: 7px 15px;
+  margin: auto 0 auto;
+  width: 35%;
+  align-self: flex-end;
+}
+
+.my-work-text h2 {
+  align-self: center;
+}
+
+.contact-me-text {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: space-around;
+}
+
+.contact-me-text p {
+  padding: 7px 15px;
+  margin: auto 0 auto;
+  width: 35%;
+  align-self: flex-end;
+}
+
+.contact-me-text h2 {
+  align-self: center;
 }

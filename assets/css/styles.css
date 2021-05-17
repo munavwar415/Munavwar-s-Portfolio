@@ -27,6 +27,20 @@ header {
   padding: 30px;
 }
 
+.nav-bar ul li a {
+  transition: transform 250ms;
+}
+
+.nav-bar ul li a:hover {
+  background-color: grey;
+  color: azure;
+  /*border-radius: 10px;*/
+  padding: 20px 20px;
+  text-shadow: none;
+  transform: translateY(-10px);
+  border-radius: 15px;
+}
+
 header nav ul li a {
   padding: 10px 15px;
   font-weight: lighter;
@@ -93,6 +107,7 @@ header nav ul li a {
   margin: auto 0 auto;
   width: 35%;
   align-self: flex-end;
+  font-size: 20px;
 }
 
 .about-me-text h2 {
@@ -120,17 +135,27 @@ header nav ul li a {
 .contact-me-text {
   display: flex;
   flex-wrap: wrap;
-  align-self: center;
+  align-items: center;
   justify-content: space-around;
+  flex-direction: column;
 }
 
 .contact-me-text p {
-  padding: 7px 15px;
+  padding: 50px 15px;
   margin: auto 0 auto;
   width: 35%;
-  align-self: flex-end;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border-style: none;
 }
 
 .contact-me-text h2 {
-  align-self: center;
+  padding-top: 20px;
 }
+
+/*.contact-me-text h2 {
+  align-self: center;
+}*/

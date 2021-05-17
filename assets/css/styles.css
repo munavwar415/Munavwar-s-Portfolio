@@ -104,10 +104,9 @@ header nav ul li a {
 
 .about-me-text p {
   padding: 7px 15px;
-  margin: auto 0 auto;
+  margin: auto 0 25px 0;
   width: 35%;
-  align-self: flex-end;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .about-me-text h2 {
@@ -117,19 +116,31 @@ header nav ul li a {
 .my-work-text {
   display: flex;
   flex-wrap: wrap;
-  align-self: center;
+  align-items: center;
   justify-content: space-around;
 }
 
-.my-work-text p {
-  padding: 7px 15px;
-  margin: auto 0 auto;
-  width: 35%;
-  align-self: flex-end;
+.my-work-text h2 {
+  align-items: center;
 }
 
-.my-work-text h2 {
-  align-self: center;
+.my-work-text img {
+  border-radius: 30px;
+}
+
+.link1 {
+  height: 400px;
+}
+
+.link2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.link4 {
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-me-text {
